@@ -20,8 +20,7 @@ export function SnapChat(state = initState, action = {}){
 	switch(action.type){
 	case types.LOGIN:
 	return{
-	...state,
-	userDeets: {name: "Sam Okoro"}
+	...state
 	};
 	case types.CAPTURE:
 		console.log("2");

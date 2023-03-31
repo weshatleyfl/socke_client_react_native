@@ -1,5 +1,5 @@
 import * as types from './actionTypes';
-const Firebase = require('firebase');
+
 
 export function login() {
   return {
